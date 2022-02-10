@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xas.CryptoPie.Worker", "src\Xas.CryptoPie.Worker\Xas.CryptoPie.Worker.csproj", "{24FCD0C6-0B03-4FF8-B57D-9586154E6172}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xas.CryptoPie.Drivers", "src\Xas.CryptoPie.Drivers\Xas.CryptoPie.Drivers.csproj", "{AEE7D08E-1F37-46E4-AC6B-36FE25019657}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E06A6135-BA7A-4676-95B9-231B7A97384B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xas.CryptoPie.Tests", "tests\Xas.Crypto.Watch.Tests\Xas.CryptoPie.Tests.csproj", "{BBD6869D-B978-4038-ADBE-BCF367BDD27B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8B8AC14-EC71-4E48-BFDF-1E007CC0C76C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24FCD0C6-0B03-4FF8-B57D-9586154E6172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FCD0C6-0B03-4FF8-B57D-9586154E6172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FCD0C6-0B03-4FF8-B57D-9586154E6172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FCD0C6-0B03-4FF8-B57D-9586154E6172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE7D08E-1F37-46E4-AC6B-36FE25019657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE7D08E-1F37-46E4-AC6B-36FE25019657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE7D08E-1F37-46E4-AC6B-36FE25019657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE7D08E-1F37-46E4-AC6B-36FE25019657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD6869D-B978-4038-ADBE-BCF367BDD27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD6869D-B978-4038-ADBE-BCF367BDD27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD6869D-B978-4038-ADBE-BCF367BDD27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD6869D-B978-4038-ADBE-BCF367BDD27B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBD6869D-B978-4038-ADBE-BCF367BDD27B} = {E06A6135-BA7A-4676-95B9-231B7A97384B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {855020F4-5A3F-44E9-BA23-1F5700719A6C}
+	EndGlobalSection
+EndGlobal
