@@ -8,7 +8,7 @@ The current development was tested with this hardware/software :
 
 * Raspberry Pi Zero 2 W
 * Blinkt! leds from [Pimoroni](https://shop.pimoroni.com/products/blinkt)
-* InkypHat E-Ink display (Black, white, and red color) from [Pimoroni](https://shop.pimoroni.com/products/inky-phat?variant=12549254217811)
+* Inky pHat E-Ink display (Black, white, and red color) from [Pimoroni](https://shop.pimoroni.com/products/inky-phat?variant=12549254217811)
 * Mini PiTFT display from [adafruit](https://www.adafruit.com/product/4393)
 * Ubuntu server 21.10 x64 version (installation guide available [here](https://ubuntu.com/blog/raspberry-pi-zero-2-w-with-ubuntu-server-support-is-here))
 * dotnet 6.0 ARM64 version
